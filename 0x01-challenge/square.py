@@ -19,6 +19,8 @@ class Square:
             args: arguments passed on instance
             kwargs: keyword arguments passes on instance
         """
+        self.width = 0
+        self.height = 0
         for key, value in kwargs.items():
             setattr(self, key, value)
 
