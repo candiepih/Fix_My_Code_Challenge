@@ -6,18 +6,16 @@ Defines a squaare geometry
 
 class Square:
     """Defines square geometry
-    Attributes:
-        width (int): the width of the square
-        height (int): the height of the square
     """
-    width = 0
-    height = 0
 
     def __init__(self, *args, **kwargs):
         """Initializes the Square class
         Args:
             args: arguments passed on instance
             kwargs: keyword arguments passes on instance
+        Attributes:
+            width (int): the width of the square
+            height (int): the height of the square
         """
         self.width = 0
         self.height = 0
